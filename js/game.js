@@ -73,7 +73,7 @@ function hod() {
     hody.push(hod3);
     document.getElementById('result').innerHTML = `<p>Hody: ${hod1}, ${hod2}, ${hod3}</p>`;
     document.getElementById('result').innerHTML += 
-        '<p>Počet hodů: '+ pocetHodu + '</p>';
+        '<p>Počet hodů: ' + pocetHodu + '</p>';
     document.getElementById('result').innerHTML += 
         '<p>Součet hodů: ' + suma(hody) + '</p>';
     document.getElementById('result').innerHTML += 
@@ -81,5 +81,5 @@ function hod() {
     document.getElementById('result').innerHTML += 
         '<p>Nejvyšší hod: ' + maximum(hody) + '</p>';
     document.getElementById('result').innerHTML += 
-        '<p>Nejvyšší hod: ' + minimum(hody) + '</p>';
+        '<p>Nejnižší hod: ' + minimum(hody) + '</p>';
 }
