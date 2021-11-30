@@ -1,0 +1,21 @@
+body {
+    background-color: black !important; 
+}
+
+.container {
+    background-color: blue;
+}
+
+.kostka {
+    border-radius: 15px;
+    border: black 8px solid;
+    margin-top: 69px;
+    margin-bottom: 69px;
+}
+
+#result {
+    margin-bottom: 25px ;
+    margin-top: 10px ;
+    color: blanchedalmond ;
+    
+}
